@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(138, 94, 113, 1) 0%,
+    rgba(65, 107, 156, 1) 100%
+  );
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 50px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#galeriaImagenes div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(68, 67, 65);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#galeriaImagenes p {
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#galeriaImagenes img {
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 0;
+  object-fit: cover;
+  border: rgb(134, 123, 123) solid 5px;
+}
+
+input {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(131, 168, 198);
+  color: white;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(195, 171, 217);
+  color: white;
+  font-size: 20px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px;
+}
